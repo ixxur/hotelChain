@@ -1,0 +1,657 @@
+.App {
+  text-align: center;
+}
+
+nav{
+  display: felx;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+  background-color: rgb(17, 20, 63);
+  color: white;
+  font-size: medium;
+  font-size: 19px;
+}
+
+.nav-links{
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.Hotel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+}
+
+.DateHotel {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.DateHotel input {
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  padding-left: 10px;
+  margin: 5px;
+}
+
+.DateHotel button{
+  width: 320px;
+  height: 50px;
+  margin-top: 15px;
+  background-color:  rgb(17, 20, 63);
+  color: white;
+
+}
+
+.DateHotel button:hover{
+  cursor: pointer;
+} 
+
+.AfisajHotel button{
+  width: 320px;
+  height: 50px;
+  margin-top: 15px;
+  background-color:  rgb(17, 20, 63);
+  color: white;
+
+}
+
+.AfisajHotel button:hover{
+  cursor: pointer;
+} 
+
+.AfisajHotel {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+
+.ShowHotel {
+  width: 700px;
+  height: auto;
+  border: 2px solid rgb(17, 20, 63);
+  margin: 3px;
+  display: flex;
+  padding: 10px;
+
+}
+
+.ShowHotel h3 {
+  margin: 10px;
+}
+
+.ShowHotel button:hover {
+  cursor: pointer;
+}
+
+.ShowHotel button {
+  width: 250px;
+  height: 40px;
+}
+.Angajat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+}
+
+.DateAngajat {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+
+}
+
+.DateAngajat input {
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 10px;
+  margin: 5px;
+}
+
+.DateAngajat button{
+  width: 320px;
+  height: 50px;
+  margin-top: 15px;
+  background-color:  rgb(17, 20, 63);
+  color: white;
+
+}
+
+.DateAngajat button:hover{
+  cursor: pointer;
+} 
+
+.AfisajAngajat button{
+  width: 320px;
+  height: 50px;
+  margin-top: 15px;
+  background-color:  rgb(17, 20, 63);
+  color: white;
+
+}
+
+.AfisajAngajat button:hover{
+  cursor: pointer;
+} 
+
+.AfisajAngajat {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+
+.ShowAngajat {
+  width: auto;
+  height: auto;
+  border: 2px solid rgb(17, 20, 63);
+  margin: 3px;
+  display: flex;
+  padding: 5px;
+
+}
+
+.ShowAngajat h3 {
+  margin: 5px;
+}
+
+
+.Client {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.DateClient {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+
+}
+
+.DateClient input {
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 10px;
+  margin: 5px;
+}
+
+.DateClient button{
+  width: 320px;
+  height: 50px;
+  margin-top: 15px;
+  background-color:  rgb(17, 20, 63);
+  color: white;
+
+}
+
+.DateClient button:hover{
+  cursor: pointer;
+} 
+
+.AfisajClient button{
+  width: 320px;
+  height: 50px;
+  margin-top: 15px;
+  background-color:  rgb(17, 20, 63);
+  color: white;
+
+}
+
+.AfisajClient button:hover{
+  cursor: pointer;
+} 
+
+.AfisajClient {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+
+.ShowClient {
+  width: auto;
+  height: auto;
+  border: 2px solid rgb(17, 20, 63);
+  margin: 3px;
+  display: flex;
+  padding: 5px;
+
+}
+
+.ShowClient h3 {
+  margin: 5px;
+}
+
+.Tip {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.DateTip {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+
+}
+
+.DateTip input {
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 10px;
+  margin: 5px;
+}
+
+.DateTip button{
+  width: 320px;
+  height: 50px;
+  margin-top: 15px;
+  background-color:  rgb(17, 20, 63);
+  color: white;
+
+}
+
+.DateTip button:hover{
+  cursor: pointer;
+} 
+
+.AfisajTip button{
+  width: 320px;
+  height: 50px;
+  margin-top: 15px;
+  background-color:  rgb(17, 20, 63);
+  color: white;
+
+}
+
+.AfisajTip button:hover{
+  cursor: pointer;
+} 
+
+.AfisajTip {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+
+.ShowTip {
+  width: auto;
+  height: auto;
+  border: 2px solid rgb(17, 20, 63);
+  margin: 3px;
+  display: flex;
+  padding: 5px;
+
+}
+
+.ShowTip h3 {
+  margin: 5px;
+}
+
+.Camera {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.DateCamera {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+
+}
+
+.DateCamera input {
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 10px;
+  margin: 5px;
+}
+
+.DateCamera button{
+  width: 320px;
+  height: 50px;
+  margin-top: 15px;
+  background-color:  rgb(17, 20, 63);
+  color: white;
+
+}
+
+.DateCamera button:hover{
+  cursor: pointer;
+} 
+
+.AfisajCamera button{
+  width: 320px;
+  height: 50px;
+  margin-top: 15px;
+  background-color:  rgb(17, 20, 63);
+  color: white;
+
+}
+
+.AfisajCamera button:hover{
+  cursor: pointer;
+} 
+
+.AfisajCamera {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+
+.ShowCamera {
+  width: auto;
+  height: auto;
+  border: 2px solid rgb(17, 20, 63);
+  margin: 3px;
+  display: flex;
+  padding: 5px;
+
+}
+
+.ShowCamera h3 {
+  margin: 5px;
+}
+
+.Regim {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.DateRegim {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+
+}
+
+.DateRegim input {
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 10px;
+  margin: 5px;
+}
+
+.DateRegim button{
+  width: 320px;
+  height: 50px;
+  margin-top: 15px;
+  background-color:  rgb(17, 20, 63);
+  color: white;
+
+}
+
+.DateRegim button:hover{
+  cursor: pointer;
+} 
+
+.AfisajRegim button{
+  width: 320px;
+  height: 50px;
+  margin-top: 15px;
+  background-color:  rgb(17, 20, 63);
+  color: white;
+
+}
+
+.AfisajRegim button:hover{
+  cursor: pointer;
+} 
+
+.AfisajRegim {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+
+.ShowRegim {
+  width: auto;
+  height: auto;
+  border: 2px solid rgb(17, 20, 63);
+  margin: 3px;
+  display: flex;
+  padding: 5px;
+
+}
+
+.ShowRegim h3 {
+  margin: 5px;
+}
+
+.Rezervare {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.DateRezervare {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+
+}
+
+.DateRezervare input {
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 10px;
+  margin: 5px;
+}
+
+.DateRezervare button{
+  width: 320px;
+  height: 50px;
+  margin-top: 15px;
+  background-color:  rgb(17, 20, 63);
+  color: white;
+
+}
+
+.DateRezervare button:hover{
+  cursor: pointer;
+} 
+
+.AfisajRezervare button{
+  width: 320px;
+  height: 50px;
+  margin-top: 15px;
+  background-color:  rgb(17, 20, 63);
+  color: white;
+
+}
+
+.AfisajRezervare button:hover{
+  cursor: pointer;
+} 
+
+.AfisajRezervare {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+
+.ShowRezervare {
+  width: auto;
+  height: auto;
+  border: 2px solid rgb(17, 20, 63);
+  margin: 3px;
+  display: flex;
+  padding: 5px;
+
+}
+
+.ShowRezervare h3 {
+  margin: 5px;
+}
+
+.Plata {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.DatePlata {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+
+}
+
+.DatePlata input {
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 10px;
+  margin: 5px;
+}
+
+.DatePlata button{
+  width: 320px;
+  height: 50px;
+  margin-top: 15px;
+  background-color:  rgb(17, 20, 63);
+  color: white;
+
+}
+
+.DatePlata button:hover{
+  cursor: pointer;
+} 
+
+.AfisajPlata button{
+  width: 320px;
+  height: 50px;
+  margin-top: 15px;
+  background-color:  rgb(17, 20, 63);
+  color: white;
+
+}
+
+.AfisajPlata button:hover{
+  cursor: pointer;
+} 
+
+.AfisajPlata {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+
+.ShowPlata {
+  width: auto;
+  height: auto;
+  border: 2px solid rgb(17, 20, 63);
+  margin: 3px;
+  display: flex;
+  padding: 5px;
+
+}
+
+.ShowPlata h3 {
+  margin: 5px;
+}
+
+.Subd {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+
+.Subd button {
+  width: 320px;
+  height: 50px;
+  margin-top: 15px;
+  background-color:  rgb(17, 20, 63);
+  color: white;
+}
+
+.invis {
+  display: none;
+}
+
+.having {
+  display: flex;
+  flex-direction: column;
+  align-items:start;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.Subc button{
+  width: 320px;
+  height: 50px;
+  margin-top: 15px;
+  background-color:  rgb(17, 20, 63);
+  color: white;
+
+}
+
+.cerere  {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-left: 180px;
+  font-size: 22px;
+}
